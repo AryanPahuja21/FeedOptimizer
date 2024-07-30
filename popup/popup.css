@@ -1,0 +1,10 @@
+body {
+    width: 200px;
+    padding: 10px;
+  }
+  
+  #keywordList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
