@@ -4,6 +4,13 @@
   "version": "1.0.0",
   "description": "Customize your YouTube feed by filtering content and providing tailored video suggestions based on your preferences.",
   "icons": {
-    "96": "/logo.png"
-  }
+    "96": "/icons/logo.png"
+  },
+  "background": {
+    "service_worker": "/service_worker.js",
+    "type": "module"
+  },
+  "action": {},
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"]
 }
