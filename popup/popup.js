@@ -2,6 +2,8 @@ const keywordInput = document.getElementById("keyword");
 const addKeywordButton = document.getElementById("addKeyword");
 const keywordList = document.getElementById("keywordList");
 
+console.log("Hello from popup.js");
+
 addKeywordButton.addEventListener("click", () => {
   const keyword = keywordInput.value.trim();
   if (keyword) {
